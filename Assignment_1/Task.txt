@@ -1,0 +1,11 @@
+Youssef Mohamed => Api, Ajax;
+
+Abdo Azzam => index.php, Client validation;
+
+Mostafa Ebrahim => Login.php;
+
+Khaled Mohamed => Upload.php;
+
+Mazen => Header.php;
+
+Mohamed Nasser => Footer.php;
