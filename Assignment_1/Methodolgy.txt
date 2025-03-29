@@ -1,0 +1,1 @@
+index.php => login => signup => validation => ajax => validation whatsapp => create user => upload photo algo => login => validaion user => index.php => welcome, {user} ya habibi => include header & footer
