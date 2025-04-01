@@ -1,0 +1,70 @@
+07:08:35 PM  [main] 	Initializing Control Panel
+07:08:35 PM  [main] 	Windows Version:  Home  64-bit
+07:08:35 PM  [main] 	XAMPP Version: 8.2.12
+07:08:35 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+07:08:35 PM  [main] 	Running with Administrator rights - good!
+07:08:35 PM  [main] 	XAMPP Installation Directory: "c:\materials\web_project\xampp\"
+07:08:36 PM  [main] 	Checking for prerequisites
+07:08:36 PM  [main] 	All prerequisites found
+07:08:36 PM  [main] 	Initializing Modules
+07:08:36 PM  [main] 	The FileZilla module is disabled
+07:08:36 PM  [main] 	The Mercury module is disabled
+07:08:36 PM  [main] 	The Tomcat module is disabled
+07:08:36 PM  [main] 	Enabling autostart for module "Apache"
+07:08:36 PM  [main] 	Starting Check-Timer
+07:08:36 PM  [main] 	Control Panel Ready
+07:08:36 PM  [Apache] 	Autostart active: starting...
+07:08:36 PM  [Apache] 	Attempting to start Apache app...
+07:08:37 PM  [Apache] 	Status change detected: running
+11:10:35 PM  [main] 	Deinitializing Modules
+11:10:35 PM  [main] 	Deinitializing Control Panel
+
+07:08:08 PM  [main] 	Initializing Control Panel
+07:08:08 PM  [main] 	Windows Version:  Home  64-bit
+07:08:09 PM  [main] 	XAMPP Version: 8.2.12
+07:08:09 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+07:08:09 PM  [main] 	Running with Administrator rights - good!
+07:08:09 PM  [main] 	XAMPP Installation Directory: "c:\materials\web_project\xampp\"
+07:08:09 PM  [main] 	Checking for prerequisites
+07:08:09 PM  [main] 	All prerequisites found
+07:08:09 PM  [main] 	Initializing Modules
+07:08:09 PM  [main] 	The FileZilla module is disabled
+07:08:09 PM  [main] 	The Mercury module is disabled
+07:08:09 PM  [main] 	The Tomcat module is disabled
+07:08:09 PM  [main] 	Starting Check-Timer
+07:08:09 PM  [main] 	Control Panel Ready
+07:08:36 PM  [Apache] 	Status change detected: running
+11:10:35 PM  [main] 	Deinitializing Modules
+11:10:35 PM  [main] 	Deinitializing Control Panel
+
+09:49:51 PM  [main] 	Initializing Control Panel
+09:49:51 PM  [main] 	Windows Version:  Home  64-bit
+09:49:51 PM  [main] 	XAMPP Version: 8.2.12
+09:49:51 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+09:49:51 PM  [main] 	Running with Administrator rights - good!
+09:49:51 PM  [main] 	XAMPP Installation Directory: "c:\materials\web_project\xampp\"
+09:49:51 PM  [main] 	Checking for prerequisites
+09:49:51 PM  [main] 	All prerequisites found
+09:49:51 PM  [main] 	Initializing Modules
+09:49:51 PM  [Apache] 	XAMPP Apache is already running on port 80
+09:49:51 PM  [Apache] 	XAMPP Apache is already running on port 443
+09:49:51 PM  [main] 	The FileZilla module is disabled
+09:49:51 PM  [main] 	The Mercury module is disabled
+09:49:51 PM  [main] 	The Tomcat module is disabled
+09:49:51 PM  [main] 	Enabling autostart for module "Apache"
+09:49:51 PM  [main] 	Starting Check-Timer
+09:49:51 PM  [main] 	Control Panel Ready
+09:49:52 PM  [Apache] 	Autostart aborted: Apache is already running
+10:32:27 PM  [main] 	Executing "c:\materials\web_project\xampp\"
+10:32:30 PM  [main] 	Executing "services.msc"
+11:10:35 PM  [Apache] 	Status change detected: stopped
+11:10:35 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+11:10:35 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:10:35 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:10:35 PM  [Apache] 	Press the Logs button to view error logs and check
+11:10:35 PM  [Apache] 	the Windows Event Viewer for more clues
+11:10:35 PM  [Apache] 	If you need more help, copy and post this
+11:10:35 PM  [Apache] 	entire log window on the forums
+11:10:35 PM  [main] 	Deinitializing Modules
+11:10:35 PM  [main] 	Deinitializing Control Panel
+

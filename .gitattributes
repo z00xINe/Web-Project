@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# XAMPP temporary and log files
+XAMPP/tmp/
+*.tmp
+XAMPP/apache/logs/
+XAMPP/mysql/data/
+XAMPP/xampp-control.log
+XAMPP/xampp-control.ini
+XAMPP/phpMyAdmin/tmp/
+
+# PHP session files
+XAMPP/tmp/sess_*
