@@ -12,10 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b816531f-8cb0-4c83-b541-1301265cde6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XAMPP/xampp-control.ini" beforeDir="false" afterPath="$PROJECT_DIR$/XAMPP/xampp-control.ini" afterDir="false" />
-    </list>
+    <list default="true" id="b816531f-8cb0-4c83-b541-1301265cde6a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743348559282</updated>
       <workItem from="1743348560748" duration="2194000" />
-      <workItem from="1743535742193" duration="1353000" />
+      <workItem from="1743535742193" duration="1953000" />
     </task>
     <servers />
   </component>
