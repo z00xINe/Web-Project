@@ -6,16 +6,16 @@ rem Check if argument is STOP or START
 if not ""%1"" == ""START"" goto stop
 
 
-"C:\Materials\Web_Project\XAMPP\mysql\bin\mysqld" --defaults-file="C:\Materials\Web_Project\XAMPP\mysql\bin\my.ini" --standalone
+"C:\Web_Project\xampp\mysql\bin\mysqld" --defaults-file="C:\Web_Project\xampp\mysql\bin\my.ini" --standalone
 if errorlevel 1 goto error
 goto finish
 
 :stop
-cmd.exe /C start "" /MIN call "C:\Materials\Web_Project\XAMPP\killprocess.bat" "mysqld.exe"
+cmd.exe /C start "" /MIN call "C:\Web_Project\xampp\killprocess.bat" "mysqld.exe"
 
-if not exist "C:\Materials\Web_Project\XAMPP\mysql\data\%computername%.pid" goto finish
+if not exist "C:\Web_Project\xampp\mysql\data\%computername%.pid" goto finish
 echo Delete %computername%.pid ...
-del "C:\Materials\Web_Project\XAMPP\mysql\data\%computername%.pid"
+del "C:\Web_Project\xampp\mysql\data\%computername%.pid"
 goto finish
 
 

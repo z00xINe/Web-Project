@@ -1,4 +1,4 @@
-DIR = C:\Materials\Web_Project\XAMPP
+DIR = C:\Web_Project\xampp
 xampp = 8.2.12
 
 server = 1.8.0

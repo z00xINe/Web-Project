@@ -34,10 +34,10 @@ REM ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 REM POSSIBILITY OF SUCH DAMAGE.
 REM
 
-if "%PHPBIN%" == "" set PHPBIN=C:\Materials\Web_Project\XAMPP\php\.\php.exe
+if "%PHPBIN%" == "" set PHPBIN=C:\Web_Project\xampp\php\.\php.exe
 if not exist "%PHPBIN%" if "%PHP_PEAR_PHP_BIN%" neq "" goto USE_PEAR_PATH
 GOTO RUN
 :USE_PEAR_PATH
 set PHPBIN=%PHP_PEAR_PHP_BIN%
 :RUN
-"%PHPBIN%" "C:\Materials\Web_Project\XAMPP\php\phpunit" %*
+"%PHPBIN%" "C:\Web_Project\xampp\php\phpunit" %*
