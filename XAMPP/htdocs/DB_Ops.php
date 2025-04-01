@@ -2,12 +2,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "Web_DataBase";
+$dbname = "Web_DataBase"; 
 
 $conn = new mysqli($servername, $username, $password);
 
-
 $sql = "CREATE DATABASE IF NOT EXISTS $dbname";
+$conn->query($sql);
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -22,6 +22,10 @@ $sql = "CREATE TABLE IF NOT EXISTS Users (
   email VARCHAR(50) NOT NULL,
   reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
+$conn->query($sql);
+
+$sql = $conn->prepare("INSERT INTO Users (full_name, user_name, phone_number, whatsapp_number, addres, pasword, email) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$sql->bind_param("sssssss", $name, $user, $pnum, $wnum, $address, $pass, $email);
 
 $name = $_POST['name'];
 $user = $_POST['user'];
@@ -31,6 +35,7 @@ $address = $_POST['address'];
 $pass = $_POST['pass'];
 $email = $_POST['email'];
 
-$sql = "INSERT INTO $dbname (full_name, user_name, phone_number, whatsapp_number, addres, pasword, email) VALUES ($name, $user, $pnum, $wnum, $address, $pass, $email)";
+$sql->execute();
 
+$sql->close();
 $conn->close();

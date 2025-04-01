@@ -3,7 +3,7 @@ session_start();
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "users_db";
+$database = "Web_DataBase";
 
 $conn = new mysqli($host, $user, $password, $database);
 if ($conn->connect_error) {
@@ -16,15 +16,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $stmt = $conn->prepare("SELECT password FROM users WHERE username = ?");
+    $stmt = $conn->prepare("SELECT pasword FROM Users WHERE user_name = ?");
     $stmt->bind_param("s", $username);
     $stmt->execute();
     $stmt->store_result();
 
     if ($stmt->num_rows > 0) {
-        $stmt->bind_result($hashed_password);
+        $stmt->bind_result($pass);
         $stmt->fetch();
-        if (password_verify($password, $hashed_password)) {
+        if ($password == $pass) {
             $_SESSION["username"] = $username;
             echo "<script>alert('Login successful! Welcome, " . htmlspecialchars($username) . ".');</script>";
         } else {

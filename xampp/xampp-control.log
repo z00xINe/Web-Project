@@ -1,0 +1,94 @@
+9:17:51 PM  [main] 	Initializing Control Panel
+9:17:51 PM  [main] 	Windows Version:  Home  64-bit
+9:17:51 PM  [main] 	XAMPP Version: 8.2.12
+9:17:51 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:17:51 PM  [main] 	You are not running with administrator rights! This will work for
+9:17:51 PM  [main] 	most application stuff but whenever you do something with services
+9:17:51 PM  [main] 	there will be a security dialogue or things will break! So think 
+9:17:51 PM  [main] 	about running this application with administrator rights!
+9:17:51 PM  [main] 	XAMPP Installation Directory: "c:\web_project\xampp\"
+9:17:51 PM  [main] 	Checking for prerequisites
+9:17:51 PM  [main] 	All prerequisites found
+9:17:51 PM  [main] 	Initializing Modules
+9:17:51 PM  [Apache] 	Problem detected!
+9:17:51 PM  [Apache] 	Port 80 in use by "Unable to open process" with PID 18564!
+9:17:51 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:51 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:51 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:51 PM  [Apache] 	Problem detected!
+9:17:51 PM  [Apache] 	Port 443 in use by "Unable to open process" with PID 18564!
+9:17:51 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:51 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:51 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:51 PM  [main] 	The FileZilla module is disabled
+9:17:51 PM  [main] 	The Mercury module is disabled
+9:17:51 PM  [main] 	The Tomcat module is disabled
+9:17:51 PM  [main] 	Enabling autostart for module "Apache"
+9:17:51 PM  [main] 	Starting Check-Timer
+9:17:51 PM  [main] 	Control Panel Ready
+9:17:52 PM  [Apache] 	Autostart active: starting...
+9:17:52 PM  [Apache] 	Problem detected!
+9:17:52 PM  [Apache] 	Port 80 in use by "Unable to open process" with PID 18564!
+9:17:52 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:52 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:52 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:52 PM  [Apache] 	Problem detected!
+9:17:52 PM  [Apache] 	Port 443 in use by "Unable to open process" with PID 18564!
+9:17:52 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:52 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:52 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:52 PM  [Apache] 	Attempting to start Apache app...
+9:17:53 PM  [Apache] 	Problem detected!
+9:17:53 PM  [Apache] 	Port 80 in use by "Unable to open process" with PID 18564!
+9:17:53 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:53 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:53 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:53 PM  [Apache] 	Problem detected!
+9:17:53 PM  [Apache] 	Port 443 in use by "Unable to open process" with PID 18564!
+9:17:53 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:53 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:53 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:53 PM  [Apache] 	Attempting to start Apache app...
+9:17:55 PM  [Apache] 	Problem detected!
+9:17:55 PM  [Apache] 	Port 80 in use by "Unable to open process" with PID 18564!
+9:17:55 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:55 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:55 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:55 PM  [Apache] 	Problem detected!
+9:17:55 PM  [Apache] 	Port 443 in use by "Unable to open process" with PID 18564!
+9:17:55 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:55 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:55 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:55 PM  [Apache] 	Attempting to start Apache app...
+9:17:55 PM  [Apache] 	Status change detected: running
+9:17:56 PM  [Apache] 	Status change detected: stopped
+9:17:56 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+9:17:56 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+9:17:56 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+9:17:56 PM  [Apache] 	Press the Logs button to view error logs and check
+9:17:56 PM  [Apache] 	the Windows Event Viewer for more clues
+9:17:56 PM  [Apache] 	If you need more help, copy and post this
+9:17:56 PM  [Apache] 	entire log window on the forums
+9:17:56 PM  [Apache] 	Problem detected!
+9:17:56 PM  [Apache] 	Port 80 in use by "Unable to open process" with PID 18564!
+9:17:56 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:56 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:56 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:56 PM  [Apache] 	Problem detected!
+9:17:56 PM  [Apache] 	Port 443 in use by "Unable to open process" with PID 18564!
+9:17:56 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+9:17:56 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+9:17:56 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+9:17:56 PM  [Apache] 	Attempting to start Apache app...
+9:17:56 PM  [Apache] 	Status change detected: running
+9:17:57 PM  [Apache] 	Status change detected: stopped
+9:17:57 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+9:17:57 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+9:17:57 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+9:17:57 PM  [Apache] 	Press the Logs button to view error logs and check
+9:17:57 PM  [Apache] 	the Windows Event Viewer for more clues
+9:17:57 PM  [Apache] 	If you need more help, copy and post this
+9:17:57 PM  [Apache] 	entire log window on the forums
+9:19:08 PM  [main] 	Deinitializing Modules
+9:19:08 PM  [main] 	Deinitializing Control Panel
+
