@@ -95,12 +95,14 @@
         }
         /*signup */
         #group {
+            position: relative;
             display: flex;
             gap: 10px; 
         }
 
         #group input {
             flex: 1;
+            padding-right: 80px;
         }
         .login-container{
             width: 480px !important;
@@ -120,6 +122,7 @@
             font-weight: bold;
             text-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
             display:none;
+            animation: fadeIn 1.2s ease-in-out;
         }
         #error-message{
             margin-top: 5px;
@@ -132,12 +135,15 @@
             margin: 1px 8px;
             font-weight: bold;
             text-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
+          animation: fadeIn 1.2s ease-in-out;
         }
         #password_state .failed{
             color: #ff4b2b !important;
+          animation: fadeIn 1.2s ease-in-out;
         }
         #password_state .success{
             color: #2bff4b !important;
+          animation: fadeIn 1.2s ease-in-out;
         }
         .file-upload {
             display: flex;
@@ -185,22 +191,63 @@
             }
         }
 
+        .verify-false, .verify-true {
+          font-size: 20px;
+          padding: 4px 8px;
+          border-radius: 5px;
+          transition: all 0.3s ease;
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-width: 80px;
+          text-align: center;
+          animation: appear 2s ease-in-out;
+        }
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(-50%);
+            }
+        }
+
+        .verify-true {
+          color: rgb(0, 255, 0);
+        }
+
+        .verify-false {
+          color: #ff4b2b;
+        }
+
     </style>
 </head>
 <body>
 <div class="login-container">
     <h2>Sign up</h2>
-    <form id="loginForm" method="POST" action="DB_Ops.php">
+    <form id="signForm" method="POST" action="DB_Ops.php" onsubmit="return full_validation(event)">
         <div id="group">
             <input type="text" id="fullName" name="name" placeholder="Full Name" required>
             <input type="text" id="userName" name="user" placeholder="Username" required>
         </div>
 
         <div id="group">
-            <input type="text" id="PhoneNum" name="pnum" placeholder="Phone Number" required>
-            <input type="tel" id="whatsappNum" name="" placeholder="Whatsapp Number"  onkeyup="valid(this.value)" name="wnum" required>
-            <span id="check"></span>
+            <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>
         </div>
+
+        <div id="group">
+          <input type="tel" id="whatsappNum" name="" placeholder="Whatsapp Number" name="wnum" required>
+          <span class="verify-false"><b id="check">invalid</b></span>
+        </div>
+
+        <button type="button" onclick="validation()">Verify your number</button>
 
         <input type="text" id="address" name="address" placeholder="Address" required>
 
@@ -222,28 +269,32 @@
             <span id="fileName">No photo selected</span>
         </div>
 
-        <button type="submit">sign up</button>
+        <button type="button" onclick="full_validation(event)">sign up</button>
+        <button id="hideButton" type="submit" style="display: none;"></button>
     </form>
 </div>
 
 <script src="main.js"></script>
 <script>
-  function valid(num) {
-  if (num.length == 0) {
-    document.getElementById("check").innerHTML = "";
-    return;
+  function validation() {
+    var num = document.getElementById("whatsappNum").value;
+    if (num.length > 0) {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("check").innerHTML = this.responseText;
+          document.getElementById("check").className = "verify-true";
+        }
+      };
+      xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
+      xmlhttp.send();
+    }
   }
-  else {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("check").innerHTML = this.responseText;
-      }
-    };
-    xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
-    xmlhttp.send();
-  }
-}
+
+  // if (full_validation(event)) {
+  //   const button = document.getElementById('submit');
+  //   button.type = 'submit';
+  // }
 </script>
 </body>
 </html>

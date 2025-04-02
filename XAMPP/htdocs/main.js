@@ -158,8 +158,10 @@ function full_validation(event) {
     //check all 
     const allValid = isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
-    if (allValid) {
-        return true;
+  if (allValid) {
+    var button = document.getElementById("hideButton");
+    button.click();
+    return true;
     } else {
         return false;
     }
