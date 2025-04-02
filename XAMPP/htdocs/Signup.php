@@ -269,32 +269,10 @@
             <span id="fileName">No photo selected</span>
         </div>
 
-        <button type="button" onclick="full_validation(event)">sign up</button>
-        <button id="hideButton" type="submit" style="display: none;"></button>
+        <button type="submit">Sign Up</button>
     </form>
 </div>
 
 <script src="main.js"></script>
-<script>
-  function validation() {
-    var num = document.getElementById("whatsappNum").value;
-    if (num.length > 0) {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("check").innerHTML = this.responseText;
-          document.getElementById("check").className = "verify-true";
-        }
-      };
-      xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
-      xmlhttp.send();
-    }
-  }
-
-  // if (full_validation(event)) {
-  //   const button = document.getElementById('submit');
-  //   button.type = 'submit';
-  // }
-</script>
 </body>
 </html>
