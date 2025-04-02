@@ -1,4 +1,4 @@
-//show the name of the file in the custom file uploader 
+//show the name of the file in the custom file uploader
 document.getElementById("fileInput").addEventListener("change", function () {
     let fileName = this.files.length > 0 ? this.files[0].name : "No file chosen";
     document.getElementById("fileName").textContent = fileName;
@@ -99,8 +99,7 @@ function validateEmail() {
 document.getElementById("email").addEventListener("change", validateEmail);
 
 //validate whatsapp phone & phone
-function isNumbers(event) {
-    var input = event.target; 
+function isNumbers(input) { 
     var regex = /^[0-9]+$/;
     var result = regex.test(input.value);
     
@@ -111,13 +110,18 @@ function isNumbers(event) {
     }
     return result;
 }
-document.getElementById("PhoneNum").addEventListener("change", isNumbers);
-document.getElementById("whatsappNum").addEventListener("change", isNumbers);
 
+const phoneNumInput = document.getElementById("PhoneNum");
+phoneNumInput.addEventListener("change", function () {
+    isNumbers(phoneNumInput);
+});
+const whatsNumInput = document.getElementById("whatsappNum");
+phoneNumInput.addEventListener("change", function () {
+    isNumbers(phoneNumInput);
+});
 
 //validate full name
-function isLetters(event) {
-    var input = event.target; 
+function isLetters(input) {
     var regex = /^[A-Za-z\s]+$/;
     var result = regex.test(input.value);
     if (result) {
@@ -127,12 +131,15 @@ function isLetters(event) {
     }
     return result;
 }
-document.getElementById("fullName").addEventListener("change", isLetters);
+
+const fullNameInput = document.getElementById("fullName");
+fullNameInput.addEventListener("change", function () {
+    isLetters(fullNameInput);
+});
 
 //validate username
-function userCheck(event) {
-    var input = event.target; 
-    var regex = /^[A-Za-z0-9]+$/; // Only letters and numbers
+function userCheck(input) {
+    var regex = /^[A-Za-z0-9]+$/;
     var result = regex.test(input.value);
     if (result) {
         input.classList.remove("failedInput");
@@ -141,12 +148,14 @@ function userCheck(event) {
     }
     return result;
 }
-document.getElementById("userName").addEventListener("change", userCheck);
+
+const userNameInput = document.getElementById("userName");
+userNameInput.addEventListener("input", function () {
+    userCheck(userNameInput);
+});
 
 //run fullcheck
-function full_validation(event) {
-    event.preventDefault(); // Prevent form submission
-
+function full_validation() {
     const isPasswordValid = validatePassword();
     const isConfirmPasswordValid = validateConfirmPassword();
     const isEmailValid = validateEmail();
@@ -154,15 +163,39 @@ function full_validation(event) {
     const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
+    //whatsapp validation (شيل الكومنت من عليها بعد ما تخليها ترجع true / false)
+    //const whatsappFullValidation = validation();
 
-    //check all 
-    const allValid = isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
+    //check all (شيل الكومنت من على الواتس بعد ما تخليها ترجع true / false)
+    const allValid = /*whatsappFullValidation &&*/ isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
-  if (allValid) {
-    var button = document.getElementById("hideButton");
-    button.click();
-    return true;
+    if (allValid) {
+        return true;
     } else {
         return false;
     }
 }
+
+//whatsapp validation
+function validation() {
+    var num = document.getElementById("whatsappNum").value;
+    if (num.length > 0) {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("check").innerHTML = this.responseText;
+          document.getElementById("check").className = "verify-true";
+        }
+      };
+      xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
+      xmlhttp.send();
+    }
+  }
+
+//submission prevent and do full validation
+document.getElementById("signForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    if (full_validation()) {
+        this.submit();
+    }
+});
