@@ -163,11 +163,9 @@ function full_validation() {
     const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
-    //whatsapp validation (شيل الكومنت من عليها بعد ما تخليها ترجع true / false)
-    //const whatsappFullValidation = validation();
+    const whatsappFullValidation = validation();
 
-    //check all (شيل الكومنت من على الواتس بعد ما تخليها ترجع true / false)
-    const allValid = /*whatsappFullValidation &&*/ isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
+    const allValid = whatsappFullValidation && isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
     if (allValid) {
         return true;
@@ -183,8 +181,16 @@ function validation() {
       var xmlhttp = new XMLHttpRequest();
       xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("check").innerHTML = this.responseText;
-          document.getElementById("check").className = "verify-true";
+          if (this.responseText == "valid") {
+            document.getElementById("check").innerHTML = "valid";
+            document.getElementById("check").className = "verify-true";
+            return true;
+          }
+          else {
+            document.getElementById("check").innerHTML = "invalid";
+            document.getElementById("check").className = "verify-false";
+            return false;
+          }
         }
       };
       xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
@@ -196,6 +202,6 @@ function validation() {
 document.getElementById("signForm").addEventListener("submit", function(event) {
     event.preventDefault();
     if (full_validation()) {
-        this.submit();
+      this.submit();
     }
 });

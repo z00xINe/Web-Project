@@ -211,7 +211,7 @@
         @keyframes appear {
             from {
                 opacity: 0;
-                transform: translateY(-100%);
+                transform: translateY(-90%);
             }
             to {
                 opacity: 1;
