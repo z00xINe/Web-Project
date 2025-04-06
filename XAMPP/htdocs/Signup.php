@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,11 @@
             height: 100vh;
             background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
         }
-        .failedInput{
+
+        .failedInput {
             border: 2px solid #ff4b2b;
         }
+
         .login-container {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(15px);
@@ -93,67 +95,77 @@
             font-weight: bold;
             text-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
         }
+
         /*signup */
         #group {
             position: relative;
             display: flex;
-            gap: 10px; 
+            gap: 10px;
         }
 
         #group input {
             flex: 1;
             padding-right: 80px;
         }
-        .login-container{
+
+        .login-container {
             width: 480px !important;
             padding: 20px 40px;
         }
-        input{
+
+        input {
             margin: 6px 0;
         }
 
         h2 {
             margin-bottom: 10px;
         }
+
         .error-message {
             color: #ff4b2b;
             margin-top: 5px;
             font-size: 14px;
             font-weight: bold;
             text-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
-            display:none;
+            display: none;
             animation: fadeIn 1.2s ease-in-out;
         }
-        #error-message{
+
+        #error-message {
             margin-top: 5px;
         }
-        #password_state{
-            display:none;
+
+        #password_state {
+            display: none;
         }
-        #password_state span{
+
+        #password_state span {
             font-size: 12px;
             margin: 1px 8px;
             font-weight: bold;
             text-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
-          animation: fadeIn 1.2s ease-in-out;
+            animation: fadeIn 1.2s ease-in-out;
         }
-        #password_state .failed{
+
+        #password_state .failed {
             color: #ff4b2b !important;
-          animation: fadeIn 1.2s ease-in-out;
+            animation: fadeIn 1.2s ease-in-out;
         }
-        #password_state .success{
+
+        #password_state .success {
             color: #2bff4b !important;
-          animation: fadeIn 1.2s ease-in-out;
+            animation: fadeIn 1.2s ease-in-out;
         }
+
         .file-upload {
             display: flex;
             align-items: center;
             gap: 10px;
-            margin-bottom:5px;
+            margin-bottom: 5px;
         }
 
         .file-upload input[type="file"] {
-            display: none; 
+            display: none;
         }
 
         .file-upload label {
@@ -185,34 +197,37 @@
                 opacity: 0;
                 transform: translateY(-20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
 
-        .verify-false, .verify-true {
-          font-size: 20px;
-          padding: 4px 8px;
-          border-radius: 5px;
-          transition: all 0.3s ease;
-          position: absolute;
-          right: 10px;
-          top: 50%;
-          transform: translateY(-50%);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          min-width: 80px;
-          text-align: center;
-          animation: appear 2s ease-in-out;
+        .verify-false,
+        .verify-true {
+            font-size: 20px;
+            padding: 4px 8px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 80px;
+            text-align: center;
+            animation: appear 2s ease-in-out;
         }
 
         @keyframes appear {
             from {
                 opacity: 0;
-                transform: translateY(-90%);
+                transform: translateY(-100%);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(-50%);
@@ -220,59 +235,66 @@
         }
 
         .verify-true {
-          color: rgb(0, 255, 0);
+            color: rgb(0, 255, 0);
         }
 
         .verify-false {
-          color: #ff4b2b;
+            color: #ff4b2b;
         }
-
     </style>
 </head>
+
 <body>
-<div class="login-container">
-    <h2>Sign up</h2>
-    <form id="signForm" method="POST" action="DB_Ops.php" onsubmit="return full_validation(event)">
-        <div id="group">
-            <input type="text" id="fullName" name="name" placeholder="Full Name" required>
-            <input type="text" id="userName" name="user" placeholder="Username" required>
-        </div>
+    <div class="login-container">
+        <h2>Sign up</h2>
+        <form id="signForm" method="POST" action="DB_Ops.php" enctype="multipart/form-data" onsubmit="return full_validation(event)">
+            <div id="group">
+                <input type="text" id="fullName" name="name" placeholder="Full Name" required>
+                <input type="text" id="userName" name="user" placeholder="Username" required>
+            </div>
 
-        <div id="group">
-            <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>
-        </div>
+            <div id="group">
+                <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>
+            </div>
 
-        <div id="group">
-          <input type="tel" id="whatsappNum" name="" placeholder="Whatsapp Number" name="wnum" required>
-          <span class="verify-false"><b id="check">invalid</b></span>
-        </div>
+            <div id="group">
+                <input type="tel" id="whatsappNum" placeholder="Whatsapp Number" name="wnum" required>
+                <span class="verify-false"><b id="check">invalid</b></span>
+            </div>
 
-        <button type="button" onclick="validation()">Verify your number</button>
+            <button type="button" onclick="validation()">Verify your number</button>
 
-        <input type="text" id="address" name="address" placeholder="Address" required>
+            <input type="text" id="address" name="address" placeholder="Address" required>
 
-        <p class="error-message" id="emailERR">Wrong Email Format</p>
-        <input type="text" id="email" name="email" placeholder="Email" required>
+            <p class="error-message" id="emailERR">Wrong Email Format</p>
+            <input type="text" id="email" name="email" placeholder="Email" required>
 
-        <p id="password_state">
-            <span>8 Letters</span>
-            <span>contain a number</span>
-            <span>contain special character</span>
-        </p>
-        <input type="password" id="password" name="pass" placeholder="Password" required>
-        <p class="error-message" id="confirmPassERR" >the passwords doesn't match</p>
-        <input type="password" id="confPassword" placeholder="Confirm Password" required>
+            <p id="password_state">
+                <span>8 Letters</span>
+                <span>contain a number</span>
+                <span>contain special character</span>
+            </p>
+            <input type="password" id="password" name="pass" placeholder="Password" required>
+            <!-- <p class="error-message" id="confirmPassERR">the passwords doesn't match</p>
+            <input type="password" id="confPassword" placeholder="Confirm Password" required> -->
 
-        <div class="file-upload">
-            <input type="file" id="fileInput" accept="image/*">
-            <label for="fileInput">Select a profile photo</label>
-            <span id="fileName">No photo selected</span>
-        </div>
+            <div class="file-upload">
+                <input type="file" id="fileInput" name="image" accept="image/*" onchange="updateFileName()" required>
+                <label for="fileInput">Select a profile photo</label>
+                <span id="fileName">No photo selected</span>
+            </div>
 
-        <button type="submit">Sign Up</button>
-    </form>
-</div>
+            <button type="submit">Sign Up</button>
+        </form>
 
-<script src="main.js"></script>
+        <script>
+            function updateFileName() {
+                const input = document.getElementById('fileInput');
+                const fileName = input.files.length > 0 ? input.files[0].name : 'No photo selected';
+                document.getElementById('fileName').textContent = fileName;
+            }
+        </script>
+
 </body>
+
 </html>
