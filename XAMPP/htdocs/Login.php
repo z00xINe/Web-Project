@@ -97,6 +97,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             transition: all 0.4s ease;
         }
 
+        .redir, .redir a {
+            width: 100%;
+            margin: 10px 0;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            transition: all 0.4s ease;
+        }
+
         input:focus {
             border-color: #00ffff;
             box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.6);
@@ -150,6 +159,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <form id="loginForm" method="POST">
         <input type="text" id="username" name="username" placeholder="Username" required>
         <input type="password" id="password" name="password" placeholder="Password" required>
+        <div class="redir">If you don't have account <a href="http://127.0.0.1/Signup.php">click here!</a></div>
         <button type="submit">Login</button>
     </form>
     <p id="error-message"><?php echo $error_message; ?></p>

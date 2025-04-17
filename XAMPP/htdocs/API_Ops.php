@@ -30,6 +30,6 @@ curl_close($curl);
 if ($err) {
 	echo "Not Valid";
 } else {
-  $res = json_decode($response, true);
+    $res = json_decode($response, true);
 	echo $res["status"];
 }

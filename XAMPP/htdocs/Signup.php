@@ -222,6 +222,15 @@
             animation: appear 2s ease-in-out;
         }
 
+        .redir, .redir a {
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            transition: all 0.4s ease;
+            width: 100%;
+            margin: 10px 0;
+        }
+
         @keyframes appear {
             from {
                 opacity: 0;
@@ -275,15 +284,15 @@
                 <span>contain special character</span>
             </p>
             <input type="password" id="password" name="pass" placeholder="Password" required>
-            <!-- <p class="error-message" id="confirmPassERR">the passwords doesn't match</p>
-            <input type="password" id="confPassword" placeholder="Confirm Password" required> -->
+            <p class="error-message" id="confirmPassERR">the passwords doesn't match</p>
+            <input type="password" id="confPassword" placeholder="Confirm Password" required>
 
             <div class="file-upload">
                 <input type="file" id="fileInput" name="image" accept="image/*" onchange="updateFileName()" required>
                 <label for="fileInput">Select a profile photo</label>
                 <span id="fileName">No photo selected</span>
             </div>
-
+            <div class="redir">If you have account <a href="http://127.0.0.1/Signup.php">click here!</a></div>
             <button type="submit">Sign Up</button>
         </form>
 
@@ -294,6 +303,8 @@
                 document.getElementById('fileName').textContent = fileName;
             }
         </script>
+
+        <script src="main.js"></script>
 
 </body>
 

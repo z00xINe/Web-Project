@@ -150,3 +150,116 @@
 05:13:54 AM  [main] 	Deinitializing Modules
 05:13:54 AM  [main] 	Deinitializing Control Panel
 
+05:15:05 AM  [main] 	Initializing Control Panel
+05:15:05 AM  [main] 	Windows Version:  Home  64-bit
+05:15:05 AM  [main] 	XAMPP Version: 8.2.12
+05:15:05 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+05:15:05 AM  [main] 	Running with Administrator rights - good!
+05:15:05 AM  [main] 	XAMPP Installation Directory: "c:\web_project\xampp\"
+05:15:05 AM  [main] 	Checking for prerequisites
+05:15:05 AM  [main] 	All prerequisites found
+05:15:05 AM  [main] 	Initializing Modules
+05:15:05 AM  [Apache] 	XAMPP Apache is already running on port 80
+05:15:05 AM  [Apache] 	XAMPP Apache is already running on port 443
+05:15:05 AM  [mysql] 	XAMPP MySQL is already running on port 3306
+05:15:05 AM  [main] 	The FileZilla module is disabled
+05:15:05 AM  [main] 	The Mercury module is disabled
+05:15:05 AM  [main] 	The Tomcat module is disabled
+05:15:05 AM  [main] 	Enabling autostart for module "Apache"
+05:15:05 AM  [main] 	Enabling autostart for module "MySQL"
+05:15:05 AM  [main] 	Starting Check-Timer
+05:15:05 AM  [main] 	Control Panel Ready
+05:15:06 AM  [Apache] 	Autostart aborted: Apache is already running
+05:15:06 AM  [mysql] 	Autostart aborted: MySQL is already running
+05:27:55 AM  [main] 	Deinitializing Modules
+05:27:55 AM  [main] 	Deinitializing Control Panel
+
+08:04:44 AM  [main] 	Initializing Control Panel
+08:04:44 AM  [main] 	Windows Version:  Home  64-bit
+08:04:44 AM  [main] 	XAMPP Version: 8.2.12
+08:04:44 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+08:04:44 AM  [main] 	Running with Administrator rights - good!
+08:04:44 AM  [main] 	XAMPP Installation Directory: "c:\web_project\xampp\"
+08:04:44 AM  [main] 	Checking for prerequisites
+08:04:46 AM  [main] 	All prerequisites found
+08:04:46 AM  [main] 	Initializing Modules
+08:04:46 AM  [Apache] 	XAMPP Apache is already running on port 80
+08:04:46 AM  [Apache] 	XAMPP Apache is already running on port 443
+08:04:46 AM  [mysql] 	XAMPP MySQL is already running on port 3306
+08:04:46 AM  [main] 	The FileZilla module is disabled
+08:04:46 AM  [main] 	The Mercury module is disabled
+08:04:46 AM  [main] 	The Tomcat module is disabled
+08:04:46 AM  [main] 	Enabling autostart for module "Apache"
+08:04:46 AM  [main] 	Enabling autostart for module "MySQL"
+08:04:46 AM  [main] 	Starting Check-Timer
+08:04:46 AM  [main] 	Control Panel Ready
+08:04:46 AM  [Apache] 	Autostart aborted: Apache is already running
+08:04:46 AM  [mysql] 	Autostart aborted: MySQL is already running
+08:09:04 AM  [main] 	Deinitializing Modules
+08:09:04 AM  [main] 	Deinitializing Control Panel
+
+11:02:34 AM  [main] 	Initializing Control Panel
+11:02:34 AM  [main] 	Windows Version:  Home  64-bit
+11:02:34 AM  [main] 	XAMPP Version: 8.2.12
+11:02:34 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+11:02:34 AM  [main] 	Running with Administrator rights - good!
+11:02:34 AM  [main] 	XAMPP Installation Directory: "c:\web_project\xampp\"
+11:02:34 AM  [main] 	Checking for prerequisites
+11:02:36 AM  [main] 	All prerequisites found
+11:02:36 AM  [main] 	Initializing Modules
+11:02:36 AM  [main] 	The FileZilla module is disabled
+11:02:36 AM  [main] 	The Mercury module is disabled
+11:02:36 AM  [main] 	The Tomcat module is disabled
+11:02:36 AM  [main] 	Enabling autostart for module "Apache"
+11:02:36 AM  [main] 	Enabling autostart for module "MySQL"
+11:02:36 AM  [main] 	Starting Check-Timer
+11:02:36 AM  [main] 	Control Panel Ready
+11:02:36 AM  [Apache] 	Autostart active: starting...
+11:02:36 AM  [Apache] 	Attempting to start Apache app...
+11:02:36 AM  [mysql] 	Autostart active: starting...
+11:02:36 AM  [mysql] 	Attempting to start MySQL app...
+11:02:37 AM  [Apache] 	Status change detected: running
+11:02:37 AM  [mysql] 	Status change detected: running
+11:05:12 AM  [main] 	Deinitializing Modules
+11:05:12 AM  [main] 	Deinitializing Control Panel
+
+03:24:42 PM  [main] 	Initializing Control Panel
+03:24:42 PM  [main] 	Windows Version:  Home  64-bit
+03:24:42 PM  [main] 	XAMPP Version: 8.2.12
+03:24:42 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+03:24:42 PM  [main] 	Running with Administrator rights - good!
+03:24:42 PM  [main] 	XAMPP Installation Directory: "c:\web_project\xampp\"
+03:24:42 PM  [main] 	Checking for prerequisites
+03:24:44 PM  [main] 	All prerequisites found
+03:24:44 PM  [main] 	Initializing Modules
+03:24:44 PM  [main] 	The FileZilla module is disabled
+03:24:44 PM  [main] 	The Mercury module is disabled
+03:24:44 PM  [main] 	The Tomcat module is disabled
+03:24:44 PM  [main] 	Enabling autostart for module "Apache"
+03:24:44 PM  [main] 	Enabling autostart for module "MySQL"
+03:24:44 PM  [main] 	Starting Check-Timer
+03:24:44 PM  [main] 	Control Panel Ready
+03:24:44 PM  [Apache] 	Autostart active: starting...
+03:24:44 PM  [Apache] 	Attempting to start Apache app...
+03:24:44 PM  [mysql] 	Autostart active: starting...
+03:24:44 PM  [mysql] 	Attempting to start MySQL app...
+03:24:45 PM  [Apache] 	Status change detected: running
+03:24:45 PM  [mysql] 	Status change detected: running
+03:24:46 PM  [mysql] 	Status change detected: stopped
+03:24:46 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+03:24:46 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+03:24:46 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+03:24:46 PM  [mysql] 	Press the Logs button to view error logs and check
+03:24:46 PM  [mysql] 	the Windows Event Viewer for more clues
+03:24:46 PM  [mysql] 	If you need more help, copy and post this
+03:24:46 PM  [mysql] 	entire log window on the forums
+03:24:51 PM  [mysql] 	Attempting to start MySQL app...
+03:24:51 PM  [mysql] 	Status change detected: running
+03:41:06 PM  [Apache] 	Attempting to stop Apache (PID: 32160)
+03:41:06 PM  [Apache] 	Attempting to stop Apache (PID: 2004)
+03:41:06 PM  [Apache] 	Status change detected: stopped
+03:41:08 PM  [Apache] 	Attempting to start Apache app...
+03:41:08 PM  [Apache] 	Status change detected: running
+04:18:59 PM  [main] 	Deinitializing Modules
+04:18:59 PM  [main] 	Deinitializing Control Panel
+

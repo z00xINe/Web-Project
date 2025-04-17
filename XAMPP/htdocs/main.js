@@ -40,7 +40,7 @@ function validatePassword() {
 
     if (validation_state[0] === 1 && validation_state[1] === 1 && validation_state[2] === 1) {
         document.getElementById("password").classList.remove("failedInput");
-        return true; 
+        return true;
     } else {
         document.getElementById("password").classList.add("failedInput");
         return false;
@@ -72,10 +72,10 @@ document.getElementById("confPassword").addEventListener("change", validateConfi
 function validateEmail() {
     var emailInput = document.getElementById("email").value;
     var emailError = document.getElementById("emailERR");
-    
+
     //if the input is empty
     if (emailInput === "") {
-        emailError.style.display = "block"; 
+        emailError.style.display = "block";
         document.getElementById("email").classList.add("failedInput");
         emailError.innerHTML = "Email cannot be empty.";
         return false;
@@ -99,10 +99,10 @@ function validateEmail() {
 document.getElementById("email").addEventListener("change", validateEmail);
 
 //validate whatsapp phone & phone
-function isNumbers(input) { 
+function isNumbers(input) {
     var regex = /^[0-9]+$/;
     var result = regex.test(input.value);
-    
+
     if (result) {
         input.classList.remove("failedInput");
     } else {
@@ -163,7 +163,7 @@ function full_validation() {
     const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
-    const whatsappFullValidation = validation();
+    const whatsappFullValidation = true/*validation();*/
 
     const allValid = whatsappFullValidation && isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
@@ -178,30 +178,30 @@ function full_validation() {
 function validation() {
     var num = document.getElementById("whatsappNum").value;
     if (num.length > 0) {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          if (this.responseText == "valid") {
-            document.getElementById("check").innerHTML = "valid";
-            document.getElementById("check").className = "verify-true";
-            return true;
-          }
-          else {
-            document.getElementById("check").innerHTML = "invalid";
-            document.getElementById("check").className = "verify-false";
-            return false;
-          }
-        }
-      };
-      xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
-      xmlhttp.send();
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                if (this.responseText == "valid") {
+                    document.getElementById("check").innerHTML = "valid";
+                    document.getElementById("check").className = "verify-true";
+                    return true;
+                }
+                else {
+                    document.getElementById("check").innerHTML = "invalid";
+                    document.getElementById("check").className = "verify-false";
+                    return false;
+                }
+            }
+        };
+        xmlhttp.open("GET", "API_Ops.php?q=" + num, true);
+        xmlhttp.send();
     }
-  }
+}
 
 //submission prevent and do full validation
-document.getElementById("signForm").addEventListener("submit", function(event) {
+document.getElementById("signForm").addEventListener("submit", function (event) {
     event.preventDefault();
     if (full_validation()) {
-      this.submit();
+        this.submit();
     }
 });
