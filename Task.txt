@@ -2,7 +2,7 @@ Youssef Mohamed => Api, Ajax, DB_Ops.php; => Apply Laravel password encryption
 
 Abdo Azzam => index.php, Client validation; => email
 
-Mostafa Ebrahim => Login.php; => Apply Laravel password encryption
+Mostafa Ebrahim => Login.php; => Apply Laravel password encryption, Laravel auth system--->breeze
 
 Khaled Mohamed => Upload.php;
 
