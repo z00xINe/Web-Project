@@ -1,11 +1,14 @@
-Youssef Mohamed => Api, Ajax, DB_Ops.php;
+Youssef Mohamed => Api, Ajax, DB_Ops.php; => Apply Laravel password encryption
 
-Abdo Azzam => index.php, Client validation;
+Abdo Azzam => index.php, Client validation; => email
 
-Mostafa Ebrahim => Login.php;
+Mostafa Ebrahim => Login.php; => Apply Laravel password encryption
 
 Khaled Mohamed => Upload.php;
 
-Mazen => Header.php;
+Mazen => Header.php; => dynamic, trasform to layout
 
-Mohamed Nasser => Footer.php;
+Mohamed Nasser => Footer.php; => trasform to layout
+
+
+every one => English & Arabic
