@@ -163,7 +163,7 @@ function full_validation() {
     const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
-    const whatsappFullValidation = true/*validation();*/
+    const whatsappFullValidation = validation();
 
     const allValid = whatsappFullValidation && isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
