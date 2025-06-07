@@ -263,3 +263,28 @@
 04:18:59 PM  [main] 	Deinitializing Modules
 04:18:59 PM  [main] 	Deinitializing Control Panel
 
+04:42:59 PM  [main] 	Initializing Control Panel
+04:42:59 PM  [main] 	Windows Version:  Home  64-bit
+04:42:59 PM  [main] 	XAMPP Version: 8.2.12
+04:42:59 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+04:42:59 PM  [main] 	Running with Administrator rights - good!
+04:42:59 PM  [main] 	XAMPP Installation Directory: "c:\web_project\xampp\"
+04:42:59 PM  [main] 	Checking for prerequisites
+04:43:01 PM  [main] 	All prerequisites found
+04:43:01 PM  [main] 	Initializing Modules
+04:43:01 PM  [main] 	The FileZilla module is disabled
+04:43:01 PM  [main] 	The Mercury module is disabled
+04:43:01 PM  [main] 	The Tomcat module is disabled
+04:43:01 PM  [main] 	Enabling autostart for module "Apache"
+04:43:01 PM  [main] 	Enabling autostart for module "MySQL"
+04:43:01 PM  [main] 	Starting Check-Timer
+04:43:01 PM  [main] 	Control Panel Ready
+04:43:02 PM  [Apache] 	Autostart active: starting...
+04:43:02 PM  [Apache] 	Attempting to start Apache app...
+04:43:02 PM  [mysql] 	Autostart active: starting...
+04:43:02 PM  [mysql] 	Attempting to start MySQL app...
+04:43:02 PM  [Apache] 	Status change detected: running
+04:43:03 PM  [mysql] 	Status change detected: running
+04:46:56 PM  [main] 	Deinitializing Modules
+04:46:56 PM  [main] 	Deinitializing Control Panel
+

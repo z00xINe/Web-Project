@@ -20,10 +20,5 @@
         @endif
     </head>
     <body class="">
-        @extends('layouts.app')
-    
-    
-            
-       
     </body>
 </html>
