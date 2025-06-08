@@ -53,6 +53,15 @@ try {
 
             if ($stmt->execute()) {
                 echo "User registered successfully!";
+                //sending email to admin in case success
+                $msg = "A new user has registered.\n\n"
+                        . "Name: " . $_POST['name'] . "\n"
+                        . "Email: " . $_POST['email'];
+                        
+                Mail::raw($msg, function($mail){
+                    $mail->to('abdoazzam53@gmail.com')
+                        ->subject('New user has registered.');
+                });
             } else {
                 echo "Error: Could not register user.";
             }
