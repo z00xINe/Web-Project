@@ -13,15 +13,16 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->string('full_name', 50);
-            $table->string('user_name', 50)->primary();
+            $table->string('user_name', 50)->unique();
             $table->string('phone_number', 13);
             $table->string('whatsapp_number', 13);
-            $table->string('addres', 50);
-            $table->string('pasword', 255);
-            $table->string('email', 50);
+            $table->string('address', 50);
+            $table->string('password', 255);
+            $table->string('email', 50)->unique();
             $table->string('user_image', 100);
             $table->string('original_file_name', 255);
             $table->timestamp('reg_date')->useCurrent()->useCurrentOnUpdate();
+            // $table->timestamps();   //---//
         });
     }
 
