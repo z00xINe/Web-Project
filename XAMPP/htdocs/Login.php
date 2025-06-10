@@ -26,6 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->fetch();
         if ($password == $pass) {
             $_SESSION["username"] = $username;
+            header("location:/index.php");
+            exit();
             echo "<script>alert('Login successful! Welcome, " . htmlspecialchars($username) . ".');</script>";
         } else {
             $error_message = "Invalid password!";

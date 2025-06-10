@@ -51,7 +51,7 @@ session_start();
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <?php if (isset($_SESSION['user_id'])): ?>
+                <?php if (isset($_SESSION['username'])): ?>
                     <li><a href="dashboard.php">Dashboard</a></li>
                     <li><a href="logout.php">Logout</a></li>
                 <?php else: ?>

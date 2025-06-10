@@ -44,7 +44,7 @@ Route::post('/create', function () {
     $user->user_image = $uniqueFileName;
     request()->file('image')->move(public_path('uploads'), $uniqueFileName);
     $user->save();
-    return view('welcome');
+    return view('login');
 });
 
 Route::post('/login', function () {

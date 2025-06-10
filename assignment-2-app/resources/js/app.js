@@ -163,10 +163,10 @@ function full_validation() {
     const isConfirmPasswordValid = validateConfirmPassword();
     const isEmailValid = validateEmail();
     const isPhoneNumValid = isNumbers(document.getElementById("PhoneNum"));
-    const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
+    const isWhatsappNumValid = true;
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
-    const whatsappFullValidation = validation();
+    const whatsappFullValidation = true;
 
     const allValid = whatsappFullValidation && isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
@@ -216,14 +216,3 @@ function updateFileName() {
     const fileName = input.files.length > 0 ? input.files[0].name : 'No photo selected';
     document.getElementById('fileName').textContent = fileName;
 }
-
-document.getElementById("loginForm").addEventListener("submit", function (event) {
-    let username = document.getElementById("username").value.trim();
-    let password = document.getElementById("password").value.trim();
-    let errorMessage = document.getElementById("error-message");
-
-    if (username === "" || password === "") {
-        event.preventDefault();
-        errorMessage.textContent = "Please fill in all fields!";
-    }
-});

@@ -6,6 +6,6 @@
     <title>Home</title>
 </head>
 <body>
-    <?php include 'Header.php';include 'Footer.php' ?>
+    @extends('layouts.app')
 </body>
 </html>

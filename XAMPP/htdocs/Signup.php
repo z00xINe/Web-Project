@@ -222,7 +222,8 @@
             animation: appear 2s ease-in-out;
         }
 
-        .redir, .redir a {
+        .redir,
+        .redir a {
             color: white;
             font-size: 16px;
             text-align: center;
@@ -259,8 +260,9 @@
         <form id="signForm" method="POST" action="DB_Ops.php" enctype="multipart/form-data" onsubmit="return full_validation(event)">
             <div id="group">
                 <input type="text" id="fullName" name="name" placeholder="Full Name" required>
-                <input type="text" id="userName" name="user" placeholder="Username" required>
+                <input type="text" id="userName" name="user" placeholder="Username" onchange="checkUserNameAvailability()" required>
             </div>
+            <div type="text" name="usernameStatus" id="usernameStatus"></div>
 
             <div id="group">
                 <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>

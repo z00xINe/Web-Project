@@ -149,6 +149,18 @@ function userCheck(input) {
     return result;
 }
 
+function checkUserNameAvailability(userName) {
+    const username = document.getElementById("userName").value;
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "check_username.php?username=" + encodeURIComponent(username), true);
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            document.getElementById("usernameStatus").textContent = xhr.responseText;
+        }
+    };
+    xhr.send();
+}
+
 const userNameInput = document.getElementById("userName");
 userNameInput.addEventListener("input", function () {
     userCheck(userNameInput);
@@ -160,10 +172,10 @@ function full_validation() {
     const isConfirmPasswordValid = validateConfirmPassword();
     const isEmailValid = validateEmail();
     const isPhoneNumValid = isNumbers(document.getElementById("PhoneNum"));
-    const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
+    const isWhatsappNumValid = true;
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
-    const whatsappFullValidation = validation();
+    const whatsappFullValidation = true;
 
     const allValid = whatsappFullValidation && isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
