@@ -1,3 +1,15 @@
+@extends('layouts.app')
+
+@section('title', 'Welcome')
+
+@section('content')
+    <div style="text-align:center; padding: 20px;">
+        <h1>Welcome to My Laravel App!</h1>
+        <p>This is the welcome page content, using the shared layout with footer.</p>
+    </div>
+@endsection
+
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
