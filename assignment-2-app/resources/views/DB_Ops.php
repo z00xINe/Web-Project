@@ -1,6 +1,7 @@
 <?php
 
-include 'Upload.php';
+use Illuminate\Support\Facades\Mail;
+
 $host = 'localhost';
 $username = 'root';
 $password = '';
@@ -36,7 +37,6 @@ try {
 
         // Store both original and unique file names
         $originalFileName = $_FILES['image']['name'];
-        $uploadedFileName = uploadImage('image'); // This will return the unique file name
 
         if ($uploadedFileName !== false) {
             $stmt = $conn->prepare("INSERT INTO Users (full_name, user_name, phone_number, whatsapp_number, addres, pasword, email, user_image, original_file_name) VALUES (:fullname, :username, :phone_number, :whatsapp_number, :address, :password, :email, :user_image ,:original_file_name)");

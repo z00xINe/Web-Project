@@ -163,12 +163,12 @@ function full_validation() {
     const isConfirmPasswordValid = validateConfirmPassword();
     const isEmailValid = validateEmail();
     const isPhoneNumValid = isNumbers(document.getElementById("PhoneNum"));
-    // const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
+    const isWhatsappNumValid = isNumbers(document.getElementById("whatsappNum"));
     const isFullNameValid = isLetters(document.getElementById("fullName"));
     const isUserNameValid = userCheck(document.getElementById("userName"));
-    // const whatsappFullValidation = validation();
+    const whatsappFullValidation = validation();
 
-    const allValid = /*whatsappFullValidation &&*/ isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && /*isWhatsappNumValid &&*/ isFullNameValid && isUserNameValid;
+    const allValid = whatsappFullValidation && isPasswordValid && isConfirmPasswordValid && isEmailValid && isPhoneNumValid && isWhatsappNumValid && isFullNameValid && isUserNameValid;
 
     if (allValid) {
         return true;
@@ -178,29 +178,29 @@ function full_validation() {
 }
 
 //whatsapp validation
-// window.validation = validation;
-// function validation() {
-//     var num = document.getElementById("whatsappNum").value;
-//     if (num.length > 0) {
-//         var xmlhttp = new XMLHttpRequest();
-//         xmlhttp.onreadystatechange = function () {
-//             if (this.readyState == 4 && this.status == 200) {
-//                 if (this.responseText == "valid") {
-//                     document.getElementById("check").innerHTML = "valid";
-//                     document.getElementById("check").className = "verify-true";
-//                     return true;
-//                 }
-//                 else {
-//                     document.getElementById("check").innerHTML = "invalid";
-//                     document.getElementById("check").className = "verify-false";
-//                     return false;
-//                 }
-//             }
-//         };
-//         xmlhttp.open("GET", "API_Ops?q=" + num, true);
-//         xmlhttp.send();
-//     }
-// }
+window.validation = validation;
+function validation() {
+    var num = document.getElementById("whatsappNum").value;
+    if (num.length > 0) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                if (this.responseText == "valid") {
+                    document.getElementById("check").innerHTML = "valid";
+                    document.getElementById("check").className = "verify-true";
+                    return true;
+                }
+                else {
+                    document.getElementById("check").innerHTML = "invalid";
+                    document.getElementById("check").className = "verify-false";
+                    return false;
+                }
+            }
+        };
+        xmlhttp.open("GET", "API_Ops?q=" + num, true);
+        xmlhttp.send();
+    }
+}
 
 //submission prevent and do full validation
 document.getElementById("signForm").addEventListener("submit", function (event) {

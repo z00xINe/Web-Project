@@ -18,7 +18,7 @@ curl_setopt_array($curl, [
 	CURLOPT_HTTPHEADER => [
 		"Content-Type: application/json",
 		"x-rapidapi-host: whatsapp-number-validator3.p.rapidapi.com",
-		"x-rapidapi-key: d4058c721fmsh93aa2742c9663b6p101948jsnb53d31625a0b"
+        "x-rapidapi-key: bc3a7088bamshbc632a44e4ac3a3p14407djsn8b172808f858"
 	],
 ]);
 
