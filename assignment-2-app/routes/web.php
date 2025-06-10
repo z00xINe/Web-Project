@@ -37,6 +37,10 @@ Route::get('/create', function () {
     $user->whatsapp_number = request('wnum');
     $user->password = bcrypt(request('pass'));
     $user->address = request('address');
+    $user->original_file_name = request('image');
+    $uniqueFileName = uniqid('img_', true) . '.' . pathinfo($user->original_file_name, PATHINFO_EXTENSION);
+    $user->user_image = $uniqueFileName;
+    request()->file('image')->move(public_path('uploads'), $uniqueFileName);
     $user->save();
     return 'User created successfully!';
 });

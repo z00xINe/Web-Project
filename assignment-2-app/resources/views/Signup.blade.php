@@ -24,12 +24,12 @@
                 <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>
             </div>
 
-            <div id="group">
+            {{-- <div id="group">
                 <input type="tel" id="whatsappNum" placeholder="Whatsapp Number" name="wnum" required>
                 <span class="verify-false"><b id="check">invalid</b></span>
             </div>
 
-            <button type="button" onclick="validation()">Verify your number</button>
+            <button type="button" onclick="validation()">Verify your number</button> --}}
 
             <input type="text" id="address" name="address" placeholder="Address" required>
 
@@ -46,11 +46,11 @@
             <p class="error-message" id="confirmPassERR">the passwords doesn't match</p>
             <input type="password" id="confPassword" placeholder="Confirm Password" required>
 
-            {{-- <div class="file-upload">
+            <div class="file-upload">
                 <input type="file" id="fileInput" name="image" accept="image/*" onchange="updateFileName()" required>
                 <label for="fileInput">Select a profile photo</label>
                 <span id="fileName">No photo selected</span>
-            </div> --}}
+            </div>
 
             <div class="redir">
                 If you have account <a href="../login">click here!</a>
