@@ -44,7 +44,7 @@ Route::post('/create', function () {
     $user->user_image = $uniqueFileName;
     request()->file('image')->move(public_path('uploads'), $uniqueFileName);
     $user->save();
-    return 'User created successfully!';
+    return view('welcome');
 });
 
 Route::post('/login', function () {
@@ -52,7 +52,7 @@ Route::post('/login', function () {
 
     if ($user && Hash::check(request('password'), $user->password)) {
         Auth::login($user);
-        return 'Login successful!';
+        return view('welcome');
     }
-    return 'Invalid credentials' . bcrypt(request('password'));
+    return view('Login');
 });
