@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;   //---//
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 Route::get('/register', [UserController::class, 'create']);                        //---//
 Route::post('/register', [UserController::class, 'store'])->name('users.store');   //---//
@@ -28,14 +30,14 @@ Route::get('/login', function () {
     return view('Login');
 });
 
-Route::get('/create', function () {
+Route::post('/create', function () {
     $user = new \App\Models\User();
     $user->full_name = request('name');
     $user->user_name = request('user');
     $user->email = request('email');
     $user->phone_number = request('pnum');
     $user->whatsapp_number = request('wnum');
-    $user->password = bcrypt(request('pass'));
+    $user->password = Hash::make(request('pass'));
     $user->address = request('address');
     $user->original_file_name = request('image');
     $uniqueFileName = uniqid('img_', true) . '.' . pathinfo($user->original_file_name, PATHINFO_EXTENSION);
@@ -43,4 +45,14 @@ Route::get('/create', function () {
     request()->file('image')->move(public_path('uploads'), $uniqueFileName);
     $user->save();
     return 'User created successfully!';
+});
+
+Route::post('/login', function () {
+    $user = \App\Models\User::where('user_name', request('username'))->first();
+
+    if ($user && Hash::check(request('password'), $user->password)) {
+        Auth::login($user);
+        return 'Login successful!';
+    }
+    return 'Invalid credentials' . bcrypt(request('password'));
 });

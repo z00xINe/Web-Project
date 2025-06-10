@@ -12,7 +12,7 @@
     <div class="login-container">
         <h2>Sign up</h2>
 
-        <form id="signForm" method="GET" action="create" enctype="multipart/form-data" onsubmit="return full_validation(event)">
+        <form id="signForm" method="POST" action="create" enctype="multipart/form-data" onsubmit="return full_validation(event)">
             @csrf
 
             <div id="group">
@@ -24,12 +24,12 @@
                 <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>
             </div>
 
-            {{-- <div id="group">
+            <div id="group">
                 <input type="tel" id="whatsappNum" placeholder="Whatsapp Number" name="wnum" required>
                 <span class="verify-false"><b id="check">invalid</b></span>
             </div>
 
-            <button type="button" onclick="validation()">Verify your number</button> --}}
+            <button type="button" onclick="validation()">Verify your number</button>
 
             <input type="text" id="address" name="address" placeholder="Address" required>
 
