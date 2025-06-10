@@ -23,3 +23,20 @@ Route::get('/DB_Ops', function () {
 Route::get('/API_Ops', function () {
     return view('API_Ops');
 });
+
+Route::get('/login', function () {
+    return view('Login');
+});
+
+Route::get('/create', function () {
+    $user = new \App\Models\User();
+    $user->full_name = request('name');
+    $user->user_name = request('user');
+    $user->email = request('email');
+    $user->phone_number = request('pnum');
+    $user->whatsapp_number = request('wnum');
+    $user->password = bcrypt(request('pass'));
+    $user->address = request('address');
+    $user->save();
+    return 'User created successfully!';
+});

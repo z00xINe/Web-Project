@@ -12,7 +12,7 @@
     <div class="login-container">
         <h2>Sign up</h2>
 
-        <form id="signForm" method="POST" action="route('DB_Ops')" enctype="multipart/form-data" onsubmit="return full_validation(event)">
+        <form id="signForm" method="GET" action="create" enctype="multipart/form-data" onsubmit="return full_validation(event)">
             @csrf
 
             <div id="group">
@@ -46,14 +46,14 @@
             <p class="error-message" id="confirmPassERR">the passwords doesn't match</p>
             <input type="password" id="confPassword" placeholder="Confirm Password" required>
 
-            <div class="file-upload">
+            {{-- <div class="file-upload">
                 <input type="file" id="fileInput" name="image" accept="image/*" onchange="updateFileName()" required>
                 <label for="fileInput">Select a profile photo</label>
                 <span id="fileName">No photo selected</span>
-            </div>
+            </div> --}}
 
             <div class="redir">
-                If you have account <a href="{{-- route('login') --}}">click here!</a>
+                If you have account <a href="../login">click here!</a>
             </div>
 
             <button type="submit">Sign Up</button>
