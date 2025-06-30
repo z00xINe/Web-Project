@@ -1,201 +1,263 @@
-2025-04-01 21:37:08 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 19816
-2025-04-01 21:37:08 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-04-01 21:37:08 0 [Note] InnoDB: Uses event mutexes
-2025-04-01 21:37:08 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-04-01 21:37:08 0 [Note] InnoDB: Number of pools: 1
-2025-04-01 21:37:08 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-04-01 21:37:08 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-04-01 21:37:08 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-04-01 21:37:08 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
-2025-04-01 21:37:08 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-04-01 21:37:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-04-01 21:37:08 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-04-01 21:37:08 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-04-01 21:37:08 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-04-01 21:37:08 0 [Note] InnoDB: Waiting for purge to start
-2025-04-01 21:37:08 0 [Note] InnoDB: 10.4.32 started; log sequence number 300297; transaction id 170
-2025-04-01 21:37:08 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-04-01 21:37:08 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-04-01 21:37:08 0 [Note] InnoDB: Buffer pool(s) load completed at 250401 21:37:08
-2025-04-01 21:37:08 0 [Note] Server socket created on IP: '::'.
-2025-04-01 22:06:06 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 27696
-2025-04-01 22:06:06 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-04-01 22:06:06 0 [Note] InnoDB: Uses event mutexes
-2025-04-01 22:06:06 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-04-01 22:06:06 0 [Note] InnoDB: Number of pools: 1
-2025-04-01 22:06:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-04-01 22:06:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-04-01 22:06:06 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-04-01 22:06:06 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=305383
-2025-04-01 22:06:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-04-01 22:06:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-04-01 22:06:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-04-01 22:06:06 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-04-01 22:06:06 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-04-01 22:06:06 0 [Note] InnoDB: Waiting for purge to start
-2025-04-01 22:06:06 0 [Note] InnoDB: 10.4.32 started; log sequence number 305392; transaction id 201
-2025-04-01 22:06:06 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-04-01 22:06:06 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-04-01 22:06:06 0 [Note] Server socket created on IP: '::'.
-2025-04-03  5:07:20 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 46064
-2025-04-03  5:07:20 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-04-03  5:07:20 0 [Note] InnoDB: Uses event mutexes
-2025-04-03  5:07:20 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-04-03  5:07:20 0 [Note] InnoDB: Number of pools: 1
-2025-04-03  5:07:20 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-04-03  5:07:20 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-04-03  5:07:20 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-04-03  5:07:20 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=326611
-2025-04-03  5:07:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-04-03  5:07:20 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-04-03  5:07:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-04-03  5:07:20 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-04-03  5:07:20 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-04-03  5:07:20 0 [Note] InnoDB: Waiting for purge to start
-2025-04-03  5:07:21 0 [Note] InnoDB: 10.4.32 started; log sequence number 326620; transaction id 309
-2025-04-03  5:07:21 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-04-03  5:07:21 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-04-03  5:07:21 0 [Note] InnoDB: Buffer pool(s) load completed at 250403  5:07:21
-2025-04-03  5:07:21 0 [Note] Server socket created on IP: '::'.
-2025-04-04 11:02:37 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 32932
-2025-04-04 11:02:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-04-04 11:02:37 0 [Note] InnoDB: Uses event mutexes
-2025-04-04 11:02:37 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-04-04 11:02:37 0 [Note] InnoDB: Number of pools: 1
-2025-04-04 11:02:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-04-04 11:02:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-04-04 11:02:37 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-04-04 11:02:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=326629
-2025-04-04 11:02:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-04-04 11:02:37 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-04-04 11:02:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-04-04 11:02:37 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-04-04 11:02:37 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-04-04 11:02:37 0 [Note] InnoDB: Waiting for purge to start
-2025-04-04 11:02:38 0 [Note] InnoDB: 10.4.32 started; log sequence number 326638; transaction id 309
-2025-04-04 11:02:38 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-04-04 11:02:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-04-04 11:02:38 0 [Note] InnoDB: Buffer pool(s) load completed at 250404 11:02:38
-2025-04-04 11:02:38 0 [Note] Server socket created on IP: '::'.
-2025-04-17 15:24:45 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 27232
-2025-04-17 15:24:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-04-17 15:24:45 0 [Note] InnoDB: Uses event mutexes
-2025-04-17 15:24:45 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-04-17 15:24:45 0 [Note] InnoDB: Number of pools: 1
-2025-04-17 15:24:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-04-17 15:24:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-04-17 15:24:45 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-04-17 15:24:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=326629
-2025-04-17 15:24:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-04-17 15:24:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-04-17 15:24:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-04-17 15:24:46 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-04-17 15:24:46 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-04-17 15:24:46 0 [Note] InnoDB: Waiting for purge to start
-2025-04-17 15:24:46 0 [Note] InnoDB: 10.4.32 started; log sequence number 326638; transaction id 309
-2025-04-17 15:24:46 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-04-17 15:24:46 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-04-17 15:24:46 0 [Note] InnoDB: Buffer pool(s) load completed at 250417 15:24:46
-2025-04-17 15:24:46 0 [Note] Server socket created on IP: '::'.
-2025-04-17 15:24:46 0x7638  InnoDB: Assertion failure in file D:\winx64-packages\build\src\storage\innobase\os\os0file.cc line 6132
-InnoDB: Failing assertion: slot
-InnoDB: We intentionally generate a memory trap.
-InnoDB: Submit a detailed bug report to https://jira.mariadb.org/
-InnoDB: If you get repeated assertion failures or crashes, even
-InnoDB: immediately after the mysqld startup, there may be
-InnoDB: corruption in the InnoDB tablespace. Please refer to
-InnoDB: https://mariadb.com/kb/en/library/innodb-recovery-modes/
-InnoDB: about forcing recovery.
-2025-04-17 15:24:46 0x39742025-04-17 15:24:46 0x2758  InnoDB: Assertion failure in file D:\winx64-packages\build\src\storage\inno250417 15:24:46 base\os\os0f[ERROR] mysqld got exception 0x80000003 ;
-iSorry, we probably made a mistake, and this is a bug.
+2025-06-30 14:26:14 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 11728
+2025-06-30 14:26:14 0 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2025-06-30 14:26:14 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-06-30 14:26:14 0 [Note] InnoDB: Uses event mutexes
+2025-06-30 14:26:14 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-06-30 14:26:14 0 [Note] InnoDB: Number of pools: 1
+2025-06-30 14:26:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-06-30 14:26:14 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2025-06-30 14:26:14 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2025-06-30 14:26:14 0 [ERROR] InnoDB: Database creation was aborted with error Generic error. You may need to delete the ibdata1 file before trying to start up again.
+2025-06-30 14:26:14 0 [Note] InnoDB: Starting shutdown...
+2025-06-30 14:26:14 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2025-06-30 14:26:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-06-30 14:26:14 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2025-06-30 14:26:14 0 [ERROR] Aborting
+2025-06-30 14:26:52 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 36080
+2025-06-30 14:26:52 0 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2025-06-30 14:26:52 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-06-30 14:26:52 0 [Note] InnoDB: Uses event mutexes
+2025-06-30 14:26:52 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-06-30 14:26:52 0 [Note] InnoDB: Number of pools: 1
+2025-06-30 14:26:52 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-06-30 14:26:52 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-06-30 14:26:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-06-30 14:26:52 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibdata1' size to 10 MB. Physically writing the file full; Please wait ...
+2025-06-30 14:26:52 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibdata1' size is now 10 MB.
+2025-06-30 14:26:52 0 [Note] InnoDB: Setting log file C:\Web_Project\xampp\mysql\data\ib_logfile101 size to 5242880 bytes
+2025-06-30 14:26:52 0 [Note] InnoDB: Setting log file C:\Web_Project\xampp\mysql\data\ib_logfile1 size to 5242880 bytes
+2025-06-30 14:26:52 0 [Note] InnoDB: Renaming log file C:\Web_Project\xampp\mysql\data\ib_logfile101 to C:\Web_Project\xampp\mysql\data\ib_logfile0
+2025-06-30 14:26:52 0 [Note] InnoDB: New log files created, LSN=11451
+2025-06-30 14:26:52 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2025-06-30 14:26:52 0 [Note] InnoDB: Doublewrite buffer created
+2025-06-30 14:26:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-06-30 14:26:52 0 [Note] InnoDB: Creating foreign key constraint system tables.
+2025-06-30 14:26:52 0 [Note] InnoDB: Creating tablespace and datafile system tables.
+2025-06-30 14:26:52 0 [Note] InnoDB: Creating sys_virtual system tables.
+2025-06-30 14:26:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-06-30 14:26:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-06-30 14:26:52 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-06-30 14:26:52 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-06-30 14:26:52 0 [Note] InnoDB: Waiting for purge to start
+2025-06-30 14:26:52 0 [Note] InnoDB: 10.4.32 started; log sequence number 0; transaction id 7
+2025-06-30 14:26:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-06-30 14:26:52 0 [Note] Server socket created on IP: '::'.
+2025-06-30 14:26:52 6 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2025-06-30 14:26:52 0 [Note] Reading of all Master_info entries succeeded
+2025-06-30 14:26:52 0 [Note] Added new Master_info '' to hash table
+2025-06-30 14:26:52 0 [Note] C:\web_project\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-06-30 14:30:23 0 [Note] C:\web_project\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-06-30 14:30:23 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-06-30 14:30:23 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-06-30 14:30:23 0 [Note] InnoDB: Starting shutdown...
+2025-06-30 14:30:23 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Web_Project\xampp\mysql\data\ib_buffer_pool
+2025-06-30 14:30:23 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-06-30 14:30:23 0 [Note] InnoDB: Buffer pool(s) dump completed at 250630 14:30:23
+2025-06-30 14:30:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-06-30 14:30:24 0 [Note] InnoDB: Shutdown completed; log sequence number 47056; transaction id 7
+2025-06-30 14:30:24 0 [Note] C:\web_project\xampp\mysql\bin\mysqld.exe: Shutdown complete
 
-Your assistance in bug reporting will enable us to fix this for the next release.
-To report this bug, see https://mariadb.com/kb/en/reporting-bugs
-
-lWe will try our best to scrape up some info that will hopefully help
-diagnose the problem, but since we have already crashed, 
-something is definitely wrong and this may fail.
-
-eServer version: 10.4.32-MariaDB source revision: c4143f909528e3fab0677a28631d10389354c491
-.key_buffer_size=16777216
-cread_buffer_size=262144
-cmax_used_connections=0
-max_threads=65537
-thread_count=6
-It is possible that mysqld could use up to 
-key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 20304 K  bytes of memory
-Hope that's ok; if not, decrease some variables in the equation.
-
-Thread pointer: 0x0
-Attempting backtrace. You can use the following information to find out
-where mysqld died. If you see no messages after this, something went
-terribly wrong...
- line 6132
-  InnoDB: Assertion failure in file D:\winx64-packages\build\src\storage\innobase\os\os0file.cc line 6132
-InnoDB: Failing assertion: slot
-InnoDB: We intentionally generate a memory trap.
-InnoDB: Submit a detailed bug report to https://jira.mariadb.org/
-InnoDB: If you get repeated assertion failures or crashes, even
-InnoDB: immediately after the mysqld startup, there may be
-InnoDB: corruption in the InnoDB tablespace. Please refer to
-InnoDB: https://mariadb.com/kb/en/library/innodb-recovery-modes/
-InnoDB: about forcing recovery.
-InnoDB: Failing assertion: slo2025-04-17 15:24:51 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 2728
-2025-04-17 15:24:51 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-04-17 15:24:51 0 [Note] InnoDB: Uses event mutexes
-2025-04-17 15:24:51 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-04-17 15:24:51 0 [Note] InnoDB: Number of pools: 1
-2025-04-17 15:24:51 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-04-17 15:24:51 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-04-17 15:24:51 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-04-17 15:24:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=326629
-2025-04-17 15:24:51 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-04-17 15:24:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-04-17 15:24:51 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-04-17 15:24:51 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-04-17 15:24:51 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-04-17 15:24:51 0 [Note] InnoDB: Waiting for purge to start
-2025-04-17 15:24:51 0 [Note] InnoDB: 10.4.32 started; log sequence number 326638; transaction id 309
-2025-04-17 15:24:51 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-04-17 15:24:51 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-04-17 15:24:51 0 [Note] Server socket created on IP: '::'.
-2025-05-17 16:43:03 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 34904
-2025-05-17 16:43:03 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-05-17 16:43:03 0 [Note] InnoDB: Uses event mutexes
-2025-05-17 16:43:03 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-05-17 16:43:03 0 [Note] InnoDB: Number of pools: 1
-2025-05-17 16:43:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-05-17 16:43:03 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-05-17 16:43:03 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-05-17 16:43:03 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=336748
-2025-05-17 16:43:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-05-17 16:43:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-05-17 16:43:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-05-17 16:43:03 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-05-17 16:43:03 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-05-17 16:43:03 0 [Note] InnoDB: Waiting for purge to start
-2025-05-17 16:43:03 0 [Note] InnoDB: 10.4.32 started; log sequence number 336757; transaction id 366
-2025-05-17 16:43:03 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-05-17 16:43:03 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-05-17 16:43:03 0 [Note] InnoDB: Buffer pool(s) load completed at 250517 16:43:03
-2025-05-17 16:43:03 0 [Note] Server socket created on IP: '::'.
-2025-06-10 19:36:32 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 15164
-2025-06-10 19:36:32 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2025-06-10 19:36:32 0 [Note] InnoDB: Uses event mutexes
-2025-06-10 19:36:32 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-06-10 19:36:32 0 [Note] InnoDB: Number of pools: 1
-2025-06-10 19:36:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2025-06-10 19:36:32 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2025-06-10 19:36:32 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-06-10 19:36:32 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=339443
-2025-06-10 19:36:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2025-06-10 19:36:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2025-06-10 19:36:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-06-10 19:36:32 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-06-10 19:36:32 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2025-06-10 19:36:32 0 [Note] InnoDB: Waiting for purge to start
-2025-06-10 19:36:32 0 [Note] InnoDB: 10.4.32 started; log sequence number 339468; transaction id 398
-2025-06-10 19:36:32 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
-2025-06-10 19:36:32 0 [Note] Plugin 'FEEDBACK' is disabled.
-2025-06-10 19:36:32 0 [Note] InnoDB: Buffer pool(s) load completed at 250610 19:36:32
-2025-06-10 19:36:33 0 [Note] Server socket created on IP: '::'.
+2025-06-30 14:30:28 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 25964
+2025-06-30 14:30:28 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-06-30 14:30:28 0 [Note] InnoDB: Uses event mutexes
+2025-06-30 14:30:28 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-06-30 14:30:28 0 [Note] InnoDB: Number of pools: 1
+2025-06-30 14:30:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-06-30 14:30:28 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-06-30 14:30:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-06-30 14:30:28 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-06-30 14:30:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-06-30 14:30:28 0 [Note] InnoDB: Setting file 'C:\Web_Project\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-06-30 14:30:28 0 [Note] InnoDB: File 'C:\Web_Project\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-06-30 14:30:28 0 [Note] InnoDB: Waiting for purge to start
+2025-06-30 14:30:28 0 [Note] InnoDB: 10.4.32 started; log sequence number 47056; transaction id 8
+2025-06-30 14:30:28 0 [Note] InnoDB: Loading buffer pool(s) from C:\Web_Project\xampp\mysql\data\ib_buffer_pool
+2025-06-30 14:30:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-06-30 14:30:28 0 [Note] InnoDB: Buffer pool(s) load completed at 250630 14:30:28
+2025-06-30 14:30:28 0 [Note] Server socket created on IP: '::'.
+2025-06-30 14:30:28 6 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2025-06-30 14:30:28 0 [Note] Reading of all Master_info entries succeeded
+2025-06-30 14:30:28 0 [Note] Added new Master_info '' to hash table
+2025-06-30 14:30:28 0 [Note] C:\web_project\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-06-30 14:31:03 10 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:03 10 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:07 12 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:07 12 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:08 14 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:08 14 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:08 16 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:08 16 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:08 18 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:08 18 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:09 22 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:09 22 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:14 24 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:14 24 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:14 26 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:14 26 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:17 28 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:17 28 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:24 30 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:24 30 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:25 32 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:25 32 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:29 34 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:29 34 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:32 36 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:32 36 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:32 38 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:32 38 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:36 40 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:36 40 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:31:57 44 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:31:57 44 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:15 46 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:15 46 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:15 48 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:15 48 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:15 50 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:15 50 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:15 52 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:15 52 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:15 54 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:15 54 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:15 56 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:15 56 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:20 58 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:20 58 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:29 60 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:29 60 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:29 62 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:29 62 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:29 64 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:29 64 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:29 66 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:29 66 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:32:30 70 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:32:30 70 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:33 77 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:33 77 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:40 79 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:40 79 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:40 81 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:40 81 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:40 83 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:40 83 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:41 85 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:41 85 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:49 88 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:49 88 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:49 90 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:49 90 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:49 92 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:49 92 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:49 94 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:49 94 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:50 96 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:50 96 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:33:54 98 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:33:54 98 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:34:58 106 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:34:58 106 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:34:58 108 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:34:58 108 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:34:58 110 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:34:58 110 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:34:58 112 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:34:58 112 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:34:58 114 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:34:58 114 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:34:59 116 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:34:59 116 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:10 118 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:10 118 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:12 120 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:12 120 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:13 122 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:13 122 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:20 126 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:20 126 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:20 128 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:20 128 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:24 130 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:24 130 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:24 132 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:24 132 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:24 134 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:24 134 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:24 136 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:24 136 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:24 138 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:24 138 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:25 140 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:25 140 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:27 142 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:27 142 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:30 144 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:30 144 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:38 146 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:38 146 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:39 148 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:39 148 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:53 152 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:53 152 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:35:54 154 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:35:54 154 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:36:46 156 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:36:46 156 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:36:47 158 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:36:47 158 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:37:05 166 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:37:05 166 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:37:47 176 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:37:47 176 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:37:47 176 [ERROR] InnoDB: Table `web_database`.`users` does not exist in the InnoDB internal data dictionary though MariaDB is trying to drop it. Have you copied the .frm file of the table to the MariaDB database directory from another database? Please refer to https://mariadb.com/kb/en/innodb-troubleshooting/ for how to resolve the issue.
+2025-06-30 14:37:47 178 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:37:47 178 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:16 184 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:16 184 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:16 184 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-06-30 14:38:16 186 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:16 186 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:23 188 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:23 188 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:24 190 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:24 190 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:24 194 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:24 194 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:24 196 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:24 196 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:38:24 198 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:38:24 198 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:16 201 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:16 201 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:19 203 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:19 203 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:20 205 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:20 205 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:25 207 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:25 207 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:25 209 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:25 209 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:50 211 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:50 211 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:51 213 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:51 213 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:54 217 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:54 217 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:43:54 219 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:43:54 219 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:51:43 226 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:51:43 226 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:51:44 228 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:51:44 228 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:51:44 230 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:51:44 230 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:51:44 232 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:51:44 232 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:51:44 234 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:51:44 234 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 14:51:45 236 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 14:51:45 236 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
