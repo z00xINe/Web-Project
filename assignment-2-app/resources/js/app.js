@@ -216,3 +216,16 @@ function updateFileName() {
     const fileName = input.files.length > 0 ? input.files[0].name : 'No photo selected';
     document.getElementById('fileName').textContent = fileName;
 }
+
+window.checkUserNameAvailability = checkUserNameAvailability;
+function checkUserNameAvailability(userName) {
+    const username = document.getElementById("userName").value;
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "check_username?username=" + encodeURIComponent(username), true);
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            document.getElementById("usernameStatus").textContent = xhr.responseText;
+        }
+    };
+    xhr.send();
+}

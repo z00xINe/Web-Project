@@ -261,3 +261,39 @@ Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2025-06-30 14:51:44 234 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
 2025-06-30 14:51:45 236 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
 2025-06-30 14:51:45 236 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:00:18 241 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:00:18 241 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:00:18 243 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:00:18 243 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:00:19 245 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:00:19 245 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:00:19 247 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:00:19 247 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:00:19 249 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:00:19 249 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:00:19 251 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:00:19 251 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:03 253 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:03 253 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:04 255 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:04 255 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:06 257 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:06 257 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:06 259 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:06 259 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:09 261 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:09 261 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:12 263 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:12 263 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:14 265 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:14 265 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:14 267 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:14 267 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:14 269 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:14 269 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:14 271 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:14 271 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:14 273 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:14 273 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it
+2025-06-30 15:01:14 275 [ERROR] Got error 126 when reading table '.\mysql\global_priv'
+2025-06-30 15:01:14 275 [ERROR] mysqld.exe: Index for table 'global_priv' is corrupt; try to repair it

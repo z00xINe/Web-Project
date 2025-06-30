@@ -5,8 +5,7 @@ use App\Http\Controllers\UserController;   //---//
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
-Route::get('/register', [UserController::class, 'create']);                        //---//
-Route::post('/register', [UserController::class, 'store'])->name('users.store');   //---//
+Route::post('/create', [UserController::class, 'store']);
 
 
 Route::get('/', function () {
@@ -30,21 +29,18 @@ Route::get('/login', function () {
     return view('Login');
 });
 
-Route::post('/create', function () {
-    $user = new \App\Models\User();
-    $user->full_name = request('name');
-    $user->user_name = request('user');
-    $user->email = request('email');
-    $user->phone_number = request('pnum');
-    $user->whatsapp_number = request('wnum');
-    $user->password = Hash::make(request('pass'));
-    $user->address = request('address');
-    $user->original_file_name = request('image');
-    $uniqueFileName = uniqid('img_', true) . '.' . pathinfo($user->original_file_name, PATHINFO_EXTENSION);
-    $user->user_image = $uniqueFileName;
-    request()->file('image')->move(public_path('uploads'), $uniqueFileName);
-    $user->save();
-    return view('login');
+Route::get('/check_username', function () {
+
+    $username = request('username');
+    $existingUser = \App\Models\User::where('user_name', $username)->first();
+
+    if ($existingUser) {
+        return "Username already exists.";
+    }
+
+    else {
+        return "Username is available.";
+    }
 });
 
 Route::post('/login', function () {

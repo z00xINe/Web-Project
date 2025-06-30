@@ -12,13 +12,14 @@
     <div class="login-container">
         <h2>Sign up</h2>
 
-        <form id="signForm" method="POST" action="create" enctype="multipart/form-data" onsubmit="return full_validation(event)">
+        <form id="signForm" method="POST" action="/create" enctype="multipart/form-data" onsubmit="return full_validation(event)">
             @csrf
 
             <div id="group">
                 <input type="text" id="fullName" name="name" placeholder="Full Name" required>
-                <input type="text" id="userName" name="user" placeholder="Username" required>
+                <input type="text" id="userName" name="user" placeholder="Username" onchange="checkUserNameAvailability()" required>
             </div>
+            <div type="text" name="usernameStatus" id="usernameStatus"></div>
 
             <div id="group">
                 <input type="tel" id="PhoneNum" name="pnum" placeholder="Phone Number" required>

@@ -1,19 +1,12 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
-
 {
-    public function create()
-    {
-        return view('register');
-    }
-
     public function store(Request $request)
     {
         $request->validate([
@@ -27,23 +20,29 @@ class UserController extends Controller
             'image' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
         ]);
 
-        $image = $request->file('image');
-        $originalName = $image->getClientOriginalName();
-        $uniqueName = uniqid('img_', true) . '.' . $image->getClientOriginalExtension();
-        $image->storeAs('public/uploads', $uniqueName);
+        $user = new User();
+        $user->full_name = $request->input('name');
+        $user->user_name = $request->input('user');
+        $user->email = $request->input('email');
+        $user->phone_number = $request->input('pnum');
+        $user->whatsapp_number = $request->input('wnum');
+        $user->password = Hash::make($request->input('pass'));
+        $user->address = $request->input('address');
 
-        User::create([
-            'full_name' => $request->name,
-            'user_name' => $request->user,
-            'phone_number' => $request->pnum,
-            'whatsapp_number' => $request->wnum,
-            'address' => $request->address,
-            'password' => $request->pass,
-            'email' => $request->email,
-            'user_image' => $uniqueName,
-            'original_file_name' => $originalName,
-        ]);
+        if ($request->hasFile('image')) {
+            $originalFileName = $request->file('image')->getClientOriginalName();
+            $uniqueFileName = uniqid('img_', true) . '.' . $request->file('image')->getClientOriginalExtension();
+            $request->file('image')->move(public_path('uploads'), $uniqueFileName);
 
-        return redirect()->back()->with('success', 'User registered successfully!');
+            $user->original_file_name = $originalFileName;
+            $user->user_image = $uniqueFileName;
+        }
+
+        $user->save();
+
+        return "<script>
+            alert('User created successfully!');
+            window.location.href = '/login';
+        </script>";
     }
 }
