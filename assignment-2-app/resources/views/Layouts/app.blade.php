@@ -63,8 +63,8 @@
                         </form>
                     </li>
                 @else
-                    <li><a href="{{ route('signup') }}">Register</a></li>
-                    <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="{{ route('Signup') }}">Register</a></li>
+                    <li><a href="{{ route('Login') }}">Login</a></li>
                 @endauth
             </ul>
         </nav>
